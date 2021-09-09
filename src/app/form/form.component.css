@@ -1,0 +1,9 @@
+section{
+    background: rgba(0, 0, 0, 0.555);
+}
+.sbtn{
+    margin: 0 50px;
+}
+mat-form-field{
+    margin: 0 20px;
+}

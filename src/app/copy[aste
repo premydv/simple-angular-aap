@@ -1,0 +1,51 @@
+<table mat-table>
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+  
+    <!-- Position Column -->
+    <ng-container >
+      <th mat-header-cell > No. </th>
+      <td mat-cell >  </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container>
+      <th mat-header-cell > Name </th>
+      <td mat-cell >  </td>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container >
+      <th mat-header-cell > Weight </th>
+      <td mat-cell >  </td>
+    </ng-container>
+  
+    <!-- Symbol Column -->
+    <ng-container >
+      <th mat-header-cell > Symbol </th>
+      <td mat-cell >  </td>
+    </ng-container>
+  
+    <tr mat-header-row ></tr>
+    <tr mat-row ></tr>
+  </table>
+<h4 *ngFor="let item of data">
+   
+    name:- {{item.name}} id:- {{item.id}} min-size:- {{item.min_size}}  
+        
+</h4>
+
+<table border="1" width="100%">
+    
+  <tr>
+      <th>id</th>
+      <th>name</th>
+      <td>min_value</td>
+  </tr>
+  <tr *ngFor="let item of data">
+      <td>{{item.id}}</td>
+      <td>{{item.name}}</td>
+      <td>{{item.min_size}}</td>
+  </tr>
+</table>

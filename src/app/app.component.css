@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 10px;
+}
+mat-slider{
+    color: rgb(250, 0, 0);
+}
+.mat-button-base {
+    margin: 8px 8px 8px 0;
+  }
+  .header{
+      color: brown;
+      font-weight: 900;
+      text-transform: capitalize;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      letter-spacing: 5px;
+  }

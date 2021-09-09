@@ -1,0 +1,13 @@
+.loginsection{
+    padding: 20px 100px;
+    background: rgba(69, 164, 167, 0.753);
+}
+.sbtn{
+    margin: 0 50px;
+}
+mat-form-field{
+    margin-left: 15px;
+}
+.gtrp{
+    margin-left: 50px;
+}
